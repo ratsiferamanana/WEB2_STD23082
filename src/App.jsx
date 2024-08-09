@@ -81,17 +81,17 @@ function App() {
 
   return (
     <div className="container mt-4">
-      <h1 className="mb-4 text-center">Gestion de Patrimoine</h1>
-      <Form.Group controlId="formEndDate" className="mb-3">
-        <Form.Label>Date de Fin</Form.Label>
-        <DatePicker 
-          selected={endDate} 
-          onChange={(date) => setEndDate(date)} 
-          dateFormat="dd/MM/yyyy" 
-          className="form-control" 
-        />
-      </Form.Group>
-      <Button variant="primary" className="mt-3" onClick={calculateTotalValue}>Calculer la valeur totale</Button>
+    <h1 className="mb-4 text-center">Gestion de Patrimoine</h1>
+    <Form.Group controlId="formEndDate" className="mb-3">
+      <Form.Label>Date de Fin</Form.Label>
+      <DatePicker 
+        selected={endDate} 
+        onChange={(date) => setEndDate(date)} 
+        dateFormat="dd/MM/yyyy" 
+        className="form-control" 
+      />
+    </Form.Group>
+    <Button variant="primary" className="mt-3" onClick={calculateTotalValue}>Calculer la valeur totale</Button>
 
       <Table striped bordered hover responsive className="mt-4">
         <thead className="thead-dark">
