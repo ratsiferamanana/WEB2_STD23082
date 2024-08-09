@@ -11,7 +11,7 @@
           "valeur": 1500000,
           "dateDebut": "2023-01-10T00:00:00.000Z",
           "dateFin": null,
-          "tauxAmortissement": 10
+          "tauxAmortissement": 8
         },
         {
           "possesseur": { "nom": "John Doe" },
